@@ -2,7 +2,6 @@ import pandas as pd
 import os 
 path_file = input('Введите название файла:\n')
 
-#Данные из .csv
 filename, filetype = os.path.splitext(path_file) 
 print(filetype)
 if filetype == '.xlsx':
